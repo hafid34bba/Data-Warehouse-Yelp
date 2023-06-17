@@ -29,12 +29,12 @@ Pour la construction de notre data warehouse, nous devons passer par un processu
 Dans cette étape, nous avons des données qu'on récupère de différentes types : **csv** : tip.csv, **json** : business.json, checkin.json, et une base de données **Postgres** qui contient les différentes tables : user, review, elite, friend. Nous avons chargé ses different données dans des dataframes.
 
 - **Transofrmation :** 
-1- Nettoyage des données
-2- Extraction des connaissaces à partir des données existantes
-3- Discrétisation
-4- Encodage des attributs non numériques
-5- Jointures entre les différentes sources de données
-6- Agrégation en fonction des critères
+  - Nettoyage des données 
+  - Extraction des connaissaces à partir des données existantes
+  - Discrétisation
+  - Encodage des attributs non numériques
+  - Jointures entre les différentes sources de données
+  - Agrégation en fonction des critères
 
 - **Chargement** 
 Après la transformation, nous stockons nos données reparties dans les différentes dataframes **business-fact, user-fact, dim-business, etc...** dans une base de données **Oracle** afin de visualiser nos tables de faits et de dimensions.
