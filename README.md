@@ -38,7 +38,6 @@ Dans cette étape, nous avons des données qu'on récupère de différentes type
 
 - **Chargement** 
 Après la transformation, nous stockons nos données reparties dans les différentes dataframes **business-fact, user-fact, dim-business, etc...** dans une base de données **Oracle** afin de visualiser nos tables de faits et de dimensions.
-
 Avant de charger les tables finales, nous avons passé par une zone de stockage temporaire. Nous avons par suite crée un script SQL pour terminer la création de la table de fait commerce (business) ainsi que la création de la table de dimension trimestre.
 
 
