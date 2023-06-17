@@ -19,3 +19,11 @@ Sachant que notre objectif est de développer une solution de gestion de donnée
 Dans ce schéma, il y a deux tables de faits : "commerces" (en flocon) et "utilisateurs" (en étoile) avec plusieurs dimensions.
 
 ![](images/shéma.png)
+
+## ETL : 
+Pour la construction de notre data warehouse, nous devons passer par un processus **ETL** Extract-Load-Transform.
+
+![](images/etl.png)
+
+- **Extraction des données :**  
+Dans cette étape, nous avons des données qu'on récupère de différentes types : **csv** : tip.csv, **json** : business.json, checkin.json, et une base de données **Postgres** qui contient les différentes tables : user, review, elite, friend. Nous avons chargé ses different données dans des dataframes.
