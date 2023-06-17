@@ -35,6 +35,7 @@ Lors de cette étape, les données sont récupérées à partir de différentes 
   - Encodage des attributs non numériques
   - Jointures entre les différentes sources de données
   - Agrégation en fonction des critères
+  - Application d'un modèle d'analyse de sentiments sur les commentaires
 
 - **Chargement** 
 Après la transformation, nous stockons nos données reparties dans les différentes dataframes **business-fact, user-fact, dim-business, etc...** dans une base de données **Oracle** afin de visualiser nos tables de faits et de dimensions.
