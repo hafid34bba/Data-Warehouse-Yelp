@@ -53,3 +53,10 @@ Pour cela, nous avons deux tableaux de bord, celui du **Profil business** et **P
 
 ![](images/dashboard_user.png)
 
+## Technologies et outils utilisés
+- Scala
+- Spark
+- Oracle
+- PostgreSQL
+- Metabase
+- DBeaver
