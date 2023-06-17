@@ -10,7 +10,7 @@ L'analyse de ce sujet est basé sur des avis d’utilisateurs sur de nombreuses 
     
 ## Approche
 
-Sachant que notre objectif est de développer une solution de gestion de données conviviale pour les utilisateurs finaux, qui permet une analyse rapide et interactive des données, nous avons opté pour l'architecture de Kimball.<br>
+Sachant que l'objectif est de développer une solution de gestion de données conviviale pour les utilisateurs finaux, qui permet une analyse rapide et interactive des données, nous avons opté pour l'architecture de Kimball.<br>
 
 ![](images/DataMarts.png)
 
@@ -21,12 +21,12 @@ Dans ce schéma, il y a deux tables de faits : "commerces" (en flocon) et "utili
 ![](images/shéma.png)
 
 ## ETL : 
-Pour la construction de notre data warehouse, nous devons passer par un processus **ETL** Extract-Load-Transform.
+Pour la construction de l'entrepôt de données, il est nécessaire de suivre le processus **ETL** (Extract-Load-Transform).
 
 ![](images/etl.png)
 
 - **Extraction des données :**  
-Dans cette étape, nous avons des données qu'on récupère de différentes types : **csv** : tip.csv, **json** : business.json, checkin.json, et une base de données **Postgres** qui contient les différentes tables : user, review, elite, friend. Nous avons chargé ses different données dans des dataframes.
+Lors de cette étape, les données sont récupérées à partir de différentes sources : **csv** : tip.csv, **json** : business.json, checkin.json, et une base de données **Postgres** qui contient les différentes tables : user, review, elite, friend. Ensuite, les différentes données ont été chargées dans des dataframes.
 
 - **Transofrmation :** 
   - Nettoyage des données 
