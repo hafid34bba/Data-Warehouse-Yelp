@@ -13,3 +13,9 @@ L'analyse de ce sujet est basé sur des avis d’utilisateurs sur de nombreuses 
 Sachant que notre objectif est de développer une solution de gestion de données conviviale pour les utilisateurs finaux, qui permet une analyse rapide et interactive des données, nous avons opté pour l'architecture de Kimball.<br>
 
 ![](images/DataMarts.png)
+
+## Schéma de data warehouse et data mart
+
+Dans ce schéma, il y a deux tables de faits : "commerces" (en flocon) et "utilisateurs" (en étoile) avec plusieurs dimensions.
+
+![](images/shéma.png)
