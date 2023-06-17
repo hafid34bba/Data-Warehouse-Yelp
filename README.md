@@ -41,5 +41,15 @@ Après la transformation, nous stockons nos données reparties dans les différe
 Avant de charger les tables finales, nous avons passé par une zone de stockage temporaire. Nous avons par suite crée un script SQL pour terminer la création de la table de fait commerce (business) ainsi que la création de la table de dimension trimestre.
 
 
+## Tableaux de bord
 
+Pour l'analyse de nos données, nous avons utilisé un outil de visualisation **metabase** pour nous permettre d'effectuer des requetes et de les representer graphiquement.
+Pour cela, nous avons deux tableaux de bord, celui du **Profil business** et **Profil User**.
+### Profil business 
+
+![](images/dashboard_business.png)
+
+### Profile utilisateur 
+
+![](images/dashboard_user.png)
 
