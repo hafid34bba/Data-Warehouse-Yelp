@@ -50,7 +50,7 @@ Pour cela, nous avons deux tableaux de bord, celui du **Profil business** et **P
 
 ![](images/dashboard_business.png)
 
-### Profile utilisateur 
+### Profil utilisateur 
 
 ![](images/dashboard_user.png)
 
