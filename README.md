@@ -1,5 +1,12 @@
 # Data-Warehouse-Yelp
-
+## Technologies et outils utilisés
+- Scala
+- Spark
+- Oracle
+- PostgreSQL
+- Metabase
+- DBeaver
+  
 ## Analyse 
 L'analyse de ce sujet est basé sur des avis d’utilisateurs sur de nombreuses commerces, l'objectif est d'étendre ce sujet en plusieurs analyses  sur différents axes : 
 
@@ -54,10 +61,3 @@ Pour cela, nous avons deux tableaux de bord, celui du **Profil business** et **P
 
 ![](images/dashboard_user.png)
 
-## Technologies et outils utilisés
-- Scala
-- Spark
-- Oracle
-- PostgreSQL
-- Metabase
-- DBeaver
